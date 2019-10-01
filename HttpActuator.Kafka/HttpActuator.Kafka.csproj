@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <Version>0.0.1-alpha</Version>
+    <PackageId>Com.RFranco.HttpActuator.Kafka</PackageId>
+    <Title>Apache Kafka HttpActuator</Title>
+    <Description>Apache Kafka HTTP Actuator support.</Description>
+    <Authors>Ruben Martinez; Javier solana</Authors>
+    <Copyright>Copyright R.Franco Technologies 2019</Copyright>
+    <PackageTags>Apache Kafka Http Actuator Health Check Configuration Metrics</PackageTags>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/rfrancotechnologies/dotnet-actuators</PackageProjectUrl>
+    <IncludeSource>false</IncludeSource>
+    <PackageReleaseNotes>
+      First version.
+    </PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+      <PackageReference Include="Confluent.Kafka" Version="1.1.0" />      
+      <PackageReference Include="Com.RFranco.HttpActuator" Version="0.0.1-alpha" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <Version>0.0.1-alpha</Version>
+    <PackageId>Com.RFranco.HttpActuator.ElasticSearch</PackageId>
+    <Title>ElasticSearch HttpActuator</Title>
+    <Description>ElasticSearch HTTP Actuator support.</Description>
+    <Authors>Ruben Martinez; Javier solana</Authors>
+    <Copyright>Copyright R.Franco Technologies 2019</Copyright>
+    <PackageTags>ElasticSearch Http Actuator Health Check Configuration Metrics</PackageTags>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/rfrancotechnologies/dotnet-actuators</PackageProjectUrl>
+    <IncludeSource>false</IncludeSource>
+    <PackageReleaseNotes>
+      First version.
+    </PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+      <PackageReference Include="NEST" Version="6.8.0" />
+      <PackageReference Include="Com.RFranco.HttpActuator" Version="0.0.1-alpha" />
+  </ItemGroup>
+</Project>
