@@ -5,7 +5,7 @@ using Com.Rfranco.HttpActuator.Health;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using StackExchange.Redis;
 
-namespace HttpActuator.Redis
+namespace Com.Rfranco.HttpActuator.Health.Redis
 {
     public class RedisHealthChecker : HealthCheck
     {

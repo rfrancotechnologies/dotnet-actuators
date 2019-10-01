@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Version>0.0.1-alpha</Version>
-    <PackageId>Com.RFranco.HttpActuator.ElasticSearch</PackageId>
+    <Version>0.0.2-alpha</Version>
+    <PackageId>Com.RFranco.HttpActuator.Health.ElasticSearch</PackageId>
     <Title>ElasticSearch HttpActuator</Title>
     <Description>ElasticSearch HTTP Actuator support.</Description>
     <Authors>Ruben Martinez; Javier solana</Authors>

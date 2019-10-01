@@ -5,7 +5,7 @@ using Com.Rfranco.HttpActuator.Health;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Nest;
 
-namespace HttpActuator.ElasticSearch
+namespace Com.Rfranco.HttpActuator.Health.ElasticSearch
 {
     public class ElasticSearchHealthChecker : HealthCheck
     {

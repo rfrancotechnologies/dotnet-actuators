@@ -5,7 +5,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace HealthChecks.Kafka
+namespace Com.Rfranco.HttpActuator.Health.Kafka
 {
     public class KafkaHealthChecker : HealthCheck
     {

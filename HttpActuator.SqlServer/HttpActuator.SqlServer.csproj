@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Version>0.0.1-alpha</Version>
-    <PackageId>Com.RFranco.HttpActuator.SQLServer</PackageId>
+    <Version>0.0.2-alpha</Version>
+    <PackageId>Com.RFranco.HttpActuator.Health.SQLServer</PackageId>
     <Title>SQL Server HttpActuator</Title>
     <Description>SQL Server HTTP Actuator support.</Description>
     <Authors>Ruben Martinez; Javier solana</Authors>
