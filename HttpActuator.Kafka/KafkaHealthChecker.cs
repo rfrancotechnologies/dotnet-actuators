@@ -23,7 +23,6 @@ namespace HealthChecks.Kafka
             {
                 try
                 {
-                    Console.WriteLine($"Runnin CheckHealthAsync on {Name}");
                     using (var adminClient = AdminClientBuilder.Build())
                     {
                         var metadata = adminClient.GetMetadata(TimeSpan.FromSeconds(10));
