@@ -44,8 +44,8 @@ namespace Com.Rfranco.HttpActuator.Health
             var results = tasks.Select(x => x.Result);
             var details = tasks.Select(x => x.Result.Description);
 
-            HealthStatus status = tasks.Where(result => result.Status.Equals(HealthStatus.Unhealthy)).Count() > 0 
-                ? HealthStatus.Unhealthy :  tasks.Where(result => result.Status.Equals(HealthStatus.Degraded)).Count() > 0 ?
+            HealthStatus status = results.Where(result => result.Status.Equals(HealthStatus.Unhealthy)).Count() > 0 
+                ? HealthStatus.Unhealthy :  results.Where(result => result.Status.Equals(HealthStatus.Degraded)).Count() > 0 ?
                 HealthStatus.Degraded : HealthStatus.Healthy;
 
             WriteResponse(response, 

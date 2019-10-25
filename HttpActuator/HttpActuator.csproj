@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Version>0.0.1-alpha</Version>
+    <Version>0.0.2-alpha</Version>
     <PackageId>Com.RFranco.HttpActuator</PackageId>
     <Title>HttpActuator</Title>
     <Description>HTTP Actuator support for DotNet.</Description>
@@ -12,7 +12,7 @@
     <PackageProjectUrl>https://github.com/rfrancotechnologies/dotnet-actuators</PackageProjectUrl>
     <IncludeSource>false</IncludeSource>
     <PackageReleaseNotes>
-      First version.
+      Health Status returned fixxed.
     </PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
