@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <Version>0.0.2-alpha</Version>
+    <Version>0.0.3-alpha</Version>
     <PackageId>Com.RFranco.HttpActuator.Health.SQLServer</PackageId>
     <Title>SQL Server HttpActuator</Title>
     <Description>SQL Server HTTP Actuator support.</Description>
@@ -12,11 +12,11 @@
     <PackageProjectUrl>https://github.com/rfrancotechnologies/dotnet-actuators</PackageProjectUrl>
     <IncludeSource>false</IncludeSource>
     <PackageReleaseNotes>
-      First version.
+      Com.RFranco.HttpActuator dependency updated.
     </PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
       <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
-      <PackageReference Include="Com.RFranco.HttpActuator" Version="0.0.1-alpha" />      
+      <PackageReference Include="Com.RFranco.HttpActuator" Version="0.0.2-alpha" />      
   </ItemGroup>  
 </Project>
