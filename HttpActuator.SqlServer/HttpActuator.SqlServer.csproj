@@ -16,7 +16,7 @@
     </PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
-      <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
       <PackageReference Include="Com.RFranco.HttpActuator" Version="0.0.2-alpha" />      
   </ItemGroup>  
 </Project>
